@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+}
+
+.profile-pic {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid white;
+    object-fit: contain;
+}
+
+section {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.cert-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.cert-card img {
+    width: 100%;
+    height: auto; /* keeps natural aspect ratio */
+    object-fit: contain; /* shows full image without cropping */
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.cert-card ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.cert-card ul li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
