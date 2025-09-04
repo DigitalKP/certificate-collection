@@ -20,33 +20,37 @@ header {
 }
 
 section {
-    padding: 30px;
-    max-width: 1200px;
-    margin: auto;
-}
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #222;
 }
-
 .cert-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
-    padding: 20px;
+  max-width: 800px;       /* max width fix karega */
+  margin: 20px auto;      /* center + spacing */
+  padding: 16px;
+  background: #f9f9f9;    /* halka card bg */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
+
+  
+
 
 .cert-card img {
-    width: 100%;
-    height: auto; /* keeps natural aspect ratio */
-    object-fit: contain; /* shows full image without cropping */
-    display: block;
-    margin: auto;
-    border-radius: 10px;
+  max-width: 100%;   /* responsive resize */
+  height: auto;      /* proportional height */
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
+
+  
 
 .cert-card ul {
     margin-top: 15px;
@@ -64,10 +68,8 @@ footer {
     background: #222;
     color: white;
 }
-body img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 16px auto;
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
